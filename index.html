@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chess Board</title>
+    <link rel="stylesheet" href="sandy.css" />
+    <script
+      src="https://kit.fontawesome.com/f0b0c875c5.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .chess-board {
+        
+        border-collapse: collapse;
+        margin-bottom: 60px;
+      }
+      .chess-board td {
+        border: 5px solid rgb(247, 246, 246);
+        width: 50px;
+        height: 50px;
+      }
+      .chess-board .white {
+        background: transparent;
+      }
+      .chess-board .black {
+        background: rgb(64, 6, 197);
+      }
+      .chess-board {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    </style>
+  </head>
+  <body class="bg">
+    <h1 style="text-align: center; font-size: 80px">Chess</h1>
+    <table class="chess-board">
+      <tbody>
+        <tr>
+          <th></th>
+          <th>a</th>
+          <th>b</th>
+          <th>c</th>
+          <th>d</th>
+          <th>e</th>
+          <th>f</th>
+          <th>g</th>
+          <th>h</th>
+        </tr>
+        <tr>
+          <th>1</th>
+          <td class="black">
+            <span class="whitespan"
+              ><i class="fa-solid fa-chess-rook"></i
+            ></span>
+          </td>
+          <td class="white">
+            <span class="whitespan"
+              ><i class="fa-solid fa-chess-knight"></i
+            ></span>
+          </td>
+          <td class="black">
+            <span class="whitespan"
+              ><i class="fa-solid fa-chess-bishop"></i
+            ></span>
+          </td>
+          <td class="white">
+            <span class="whitespan"
+              ><i class="fa-solid fa-chess-king"></i
+            ></span>
+          </td>
+          <td class="black">
+            <span class="whitespan"
+              ><i class="fa-solid fa-chess-queen"></i
+            ></span>
+          </td>
+          <td class="white">
+            <span class="whitespan"
+              ><i class="fa-solid fa-chess-bishop"></i
+            ></span>
+          </td>
+          <td class="black">
+            <span class="whitespan"
+              ><i class="fa-solid fa-chess-knight"></i
+            ></span>
+          </td>
+          <td class="white">
+            <span class="whitespan"
+              ><i class="fa-solid fa-chess-rook"></i
+            ></span>
+          </td>
+        </tr>
+        <tr>
+          <th>2</th>
+          <td class="white">
+            <span class="whitespan"
+              ><i class="fa-solid fa-chess-pawn"></i
+            ></span>
+          </td>
+          <td class="black">
+            <span class="whitespan"
+              ><i class="fa-solid fa-chess-pawn"></i
+            ></span>
+          </td>
+          <td class="white">
+            <span class="whitespan"
+              ><i class="fa-solid fa-chess-pawn"></i
+            ></span>
+          </td>
+          <td class="black">
+            <span class="whitespan"
+              ><i class="fa-solid fa-chess-pawn"></i
+            ></span>
+          </td>
+          <td class="white">
+            <span class="whitespan"
+              ><i class="fa-solid fa-chess-pawn"></i
+            ></span>
+          </td>
+          <td class="black">
+            <span class="whitespan"
+              ><i class="fa-solid fa-chess-pawn"></i
+            ></span>
+          </td>
+          <td class="white">
+            <span class="whitespan"
+              ><i class="fa-solid fa-chess-pawn"></i
+            ></span>
+          </td>
+          <td class="black">
+            <span class="whitespan"
+              ><i class="fa-solid fa-chess-pawn"></i
+            ></span>
+          </td>
+        </tr>
+        <tr>
+          <th>3</th>
+          <td class="black"></td>
+          <td class="white"></td>
+          <td class="black"></td>
+          <td class="white"></td>
+          <td class="black"></td>
+          <td class="white"></td>
+          <td class="black"></td>
+          <td class="white"></td>
+        </tr>
+        <tr>
+          <th>4</th>
+          <td class="white"></td>
+          <td class="black"></td>
+<td class="white"></td>
+          <td class="black"></td>
+          <td class="white"></td>
+          <td class="black"></td>
+          <td class="white"></td>
+          <td class="black"></td>
+        </tr>
+        <tr>
+          <th>5</th>
+          <td class="black"></td>
+          <td class="white"></td>
+          <td class="black"></td>
+          <td class="white"></td>
+          <td class="black"></td>
+          <td class="white"></td>
+          <td class="black"></td>
+          <td class="white"></td>
+        </tr>
+        <tr>
+          <th>6</th>
+          <td class="white"></td>
+          <td class="black"></td>
+          <td class="white"></td>
+          <td class="black"></td>
+          <td class="white"></td>
+          <td class="black"></td>
+          <td class="white"></td>
+          <td class="black"></td>
+        </tr>
+        <tr>
+          <th>7</th>
+          <td class="black">
+            <span class="blackspan"
+              ><i class="fa-solid fa-chess-pawn"></i
+            ></span>
+          </td>
+          <td class="white">
+            <span class="blackspan"
+              ><i class="fa-solid fa-chess-pawn"></i
+            ></span>
+          </td>
+          <td class="black">
+            <span class="blackspan"
+              ><i class="fa-solid fa-chess-pawn"></i
+            ></span>
+          </td>
+          <td class="white">
+            <span class="blackspan"
+              ><i class="fa-solid fa-chess-pawn"></i
+            ></span>
+          </td>
+          <td class="black">
+            <span class="blackspan"
+              ><i class="fa-solid fa-chess-pawn"></i
+            ></span>
+          </td>
+          <td class="white">
+            <span class="blackspan"
+              ><i class="fa-solid fa-chess-pawn"></i
+            ></span>
+          </td>
+          <td class="black">
+            <span class="blackspan"
+              ><i class="fa-solid fa-chess-pawn"></i
+            ></span>
+          </td>
+          <td class="white">
+            <span class="blackspan"
+              ><i class="fa-solid fa-chess-pawn"></i
+            ></span>
+          </td>
+        </tr>
+        <tr>
+          <th>8</th>
+          <td class="white">
+            <span class="blackspan"
+              ><i class="fa-solid fa-chess-rook"></i
+            ></span>
+          </td>
+          <td class="black">
+            <span class="blackspan"
+              ><i class="fa-solid fa-chess-knight"></i
+            ></span>
+          </td>
+          <td class="white">
+            <span class="blackspan"
+              ><i class="fa-solid fa-chess-bishop"></i
+            ></span>
+          </td>
+          <td class="black">
+            <span class="blackspan"
+              ><i class="fa-solid fa-chess-queen"></i
+            ></span>
+          </td>
+          <td class="white">
+            <span class="blackspan"
+              ><i class="fa-solid fa-chess-king"></i
+            ></span>
+          </td>
+          <td class="black">
+            <span class="blackspan"
+              ><i class="fa-solid fa-chess-bishop"></i
+            ></span>
+          </td>
+          <td class="white">
+            <span class="blackspan"
+              ><i class="fa-solid fa-chess-knight"></i
+            ></span>
+          </td>
+          <td class="black">
+            <span class="blackspan"
+              ><i class="fa-solid fa-chess-rook"></i
+            ></span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
